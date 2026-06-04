@@ -1,4 +1,4 @@
-# MusicX Player
+# Musico (Music Player)
 
 MusicX Player is a simple local music player that runs directly in your browser. It lets you load a folder of audio files from your computer and play them without uploading anything online.
 
