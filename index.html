@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Local Music Player</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+  <div class="header">
+    <h2>Music Player</h2>
+    <input type="file" id="folderInput" webkitdirectory multiple />
+  </div>
+
+  <div class="player">
+    <div id="nowPlaying">No song selected</div>
+
+    <audio id="audio"></audio>
+
+    <div class="controls">
+      <button id="prev">Prev</button>
+      <button id="play">Play</button>
+      <button id="next">Next</button>
+    </div>
+
+    <input type="range" id="seek" value="0" min="0" max="100">
+  </div>
+
+  <div class="playlist" id="playlist"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
